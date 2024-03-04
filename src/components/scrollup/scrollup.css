@@ -1,0 +1,19 @@
+.scrollup{
+    position: fixed;
+    right:2.5rem;
+    bottom:-20%;
+    background-color: aliceblue;
+    opacity:0.8;
+    padding:0.3rem 0.5rem;
+    border-radius:0.4rem;
+    z-index:4;
+    transition: 0.4s;
+}
+.scrollup__icon{
+    font-size: 1.5rem ;
+    color:black;
+}
+.scrollup:hover{
+   background-color: aqua; 
+}
+.show-scroll{bottom: 3rem;}

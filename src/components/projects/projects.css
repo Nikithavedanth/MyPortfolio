@@ -1,0 +1,44 @@
+.projects__container{
+    width:750px;
+}
+.projects__card{
+    background-color: lightblue;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding:1.5rem 2rem;
+    border-radius: 1.5rem;
+    margin-bottom:300px;
+}
+
+/* Style for the carousel indicators */
+.carousel-indicators li {
+    background-color: #fff; /* Change the background color */
+    border-radius: 50%; /* Make the indicators circular */
+    width: 10px; /* Adjust the width */
+    height: 10px; /* Adjust the height */
+    margin: 0 5px; /* Adjust the spacing between indicators */
+  }
+  
+  /* Style for the active indicator */
+  .carousel-indicators .active {
+    background-color: #f00; /* Change the background color of the active indicator */
+  }
+  
+
+.carousel-image-container {
+    position: relative;
+}
+
+.carousel-image {
+    width: 500px;
+    height: 350px;
+}
+  
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Adjust the opacity value as needed */
+}
+  
