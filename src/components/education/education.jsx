@@ -11,8 +11,8 @@ export function Education(){
 };
     return(
       <div>
-      <section id="education" style={{display: 'grid',
-      placeItems: 'center'}}className='qualification sections'>
+      <section style={{display: 'grid',
+      placeItems: 'center'}}className='qualification sections' id="education" >
         <h2 className='section_title'style={{fontSize:'30px'}}>Educational Qualifications</h2>  
         <span className='section__subtitle'>My educational background</span><br></br>
         <div className="qualification__container container">
